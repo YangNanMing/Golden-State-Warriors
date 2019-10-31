@@ -1,0 +1,71 @@
+.search-box{
+	position: absolute;
+	top:90%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	opacity: 0.9;
+
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+
+}
+.search-box:hover > .search-btn{
+	background: white;
+	
+}
+
+.search-btn{
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	position: relative;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transform: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	
+}
+.fas fa-basketball-ball{
+
+	width: 50px;
+	height: 50px;
+}
+.fa-basketball-ball{
+	font-size: 3em;
+}
+
+
+/* 设置input-submite与search-btn同层显示
+并且去除样式来作隐藏处理 */
+#inputlogo{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	/* border-radius: 50%;
+	display: none; */
+	border:none;
+	background:none;
+	cursor:pointer;
+	outline:none;
+}
